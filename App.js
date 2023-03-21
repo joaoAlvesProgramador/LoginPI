@@ -3,9 +3,12 @@ import { StatusBar } from 'expo-status-bar';
 import { KeyboardAvoidingView, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { TextInput } from 'react-native';
 
+import Header from './screens/header/indexH';
+
 export default function App() {
   return (
     <KeyboardAvoidingView style={styles.background}>
+      <Header />
       <View style={styles.logo}>
         <Text style={styles.textoLogo}>Login</Text>
       </View>
